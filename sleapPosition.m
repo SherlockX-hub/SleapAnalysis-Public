@@ -10,8 +10,8 @@ clear;
 addpath(genpath('C:\Data\Dropbox\code\SleapAnalysis'));
 
 %% parameters;
-dir_name = 'C:\Data\Data\emotional_discrimination\CHD8_flox\20251217F1-1'; %pwd; % input('Enter the path of data: ', 's');
-video_name = 'Mouse0001_20251218_09-33-16_R_unstressed.avi';
+dir_name = input('Enter the path of the video: ', 's'); % 'C:\Data\Data\emotional_discrimination\CHD8_flox\20251217F1-1';
+video_name = input('Enter the name of the video: ', 's'); % 'Mouse0001_20251218_09-33-16_R_unstressed.avi';
 save_type = 1; % 0;
 disp(['Start session: ', dir_name, filesep, video_name]);
 
